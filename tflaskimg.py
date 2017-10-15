@@ -204,12 +204,5 @@ def main(_):
   run_inference_on_image(IMAGE_FILE)
 
 
-#if __name__ == '__main__':
-#  tf.app.run()
-  
-#if __name__ == "__main__":
-#    server = wsgi.WSGIServer(('0.0.0.0', 5000), app)
-#    server.serve_forever()
-
 if __name__ == '__main__':
     app.run(host='0.0.0.0',port=5000,debug=True)
